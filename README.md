@@ -50,7 +50,7 @@ Each page is encapsulated using the Page Object Model (POM) pattern for better m
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/the-internet-automation.git
+   git clone https://github.com/zubair-ui/Automation-Testing
    ```
 
 2. Open the solution/project in Visual Studio.
@@ -71,29 +71,6 @@ Each page is encapsulated using the Page Object Model (POM) pattern for better m
 - Build the project.
 - Run tests via your chosen test runner (Test Explorer in Visual Studio or command line).
 - Alternatively, instantiate page classes in a console app to manually run test methods.
-
----
-
-## Project Structure
-
-```
-/TheInternetTest
-  /Pages                # Page Object Model classes for different site pages
-    - ShiftingContentPage.cs
-    - ShadowDomPage.cs
-    - NotificationMessagePage.cs
-    - ... other page classes
-  Program.cs            #  Entry point to run test execution
-  README.md
-```
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to submit issues and pull requests.
-
-Please follow coding standards and add descriptive comments.
 
 ---
 
